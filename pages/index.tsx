@@ -1,13 +1,13 @@
-import Layout from '../src/components/Layout';
+import type { NextPage } from 'next'
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <Layout>
-      <div className="min-h-screen">
-        <main className="container mx-auto px-4">
-          {/* Add your content here */}
-        </main>
-      </div>
-    </Layout>
-  );
+    <div className="container">
+      <main>
+        <h1>Welcome to My Next.js Site</h1>
+      </main>
+    </div>
+  )
 }
+
+export default Home
