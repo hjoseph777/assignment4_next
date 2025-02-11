@@ -1,7 +1,6 @@
 // Layout.tsx - Defines the main layout structure for the application.
 import React from 'react';
 import styles from '../styles/Layout.module.css';
-import Header from './Header';
 import Footer from './Footer';
 import Head from 'next/head';
 import NavBar from './NavBar';

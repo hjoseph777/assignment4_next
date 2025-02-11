@@ -22,7 +22,7 @@ const About = () => {
                         <div className={styles.card}>
                             <FaLightbulb className={styles.cardIcon} />
                             <h2>Our Mission</h2>
-                            <p>Creating innovative solutions for tomorrow's challenges.</p>
+                            <p>Creating innovative solutions for tomorrow&apos;s challenges.</p>
                         </div>
                         
                         <div className={styles.card}>
