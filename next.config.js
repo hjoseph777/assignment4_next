@@ -8,13 +8,13 @@ const nextConfig = {
     }
     return config
   },
-  trailingSlash: true,
   output: 'export',
   images: {
     unoptimized: true,
   },
   basePath: process.env.NODE_ENV === 'production' ? '/assignment4_next' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/assignment4_next/' : '',
+  trailingSlash: true
 }
 
 module.exports = nextConfig

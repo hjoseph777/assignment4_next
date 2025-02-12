@@ -13,19 +13,19 @@ const NavBar: React.FC = () => {
             <div className={styles.navContainer}>
                 <ul className={styles.navList}>
                     <li>
-                        <Link href="/" className={`${styles.navLink} ${router.pathname === "/" ? styles.active : ""}`}>
+                        <Link href="/" className={`${styles.navLink} ${router.pathname === "/" ? styles.active : ""}`} legacyBehavior={false}>
                             <FaHome className={styles.navIcon} />
                             <span>Home</span>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about" className={`${styles.navLink} ${router.pathname === "/about" ? styles.active : ""}`}>
+                        <Link href="/about" className={`${styles.navLink} ${router.pathname === "/about" ? styles.active : ""}`} legacyBehavior={false}>
                             <FaInfoCircle className={styles.navIcon} />
                             <span>About</span>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contact" className={`${styles.navLink} ${router.pathname === "/contact" ? styles.active : ""}`}>
+                        <Link href="/contact" className={`${styles.navLink} ${router.pathname === "/contact" ? styles.active : ""}`} legacyBehavior={false}>
                             <FaEnvelope className={styles.navIcon} />
                             <span>Contact</span>
                         </Link>
