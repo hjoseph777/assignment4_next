@@ -8,27 +8,31 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary-color: #4a5568; /* Changed from blue to grey */
-  --secondary-color: #2d3748; /* Darker grey */
-  --background-color: #f5e6d3;
-  --text-color: #1e293b;
+  --primary-color: #4B89DC; /* Changed from #2563eb - softer blue */
+  --secondary-color: #7FB1F3; /* Changed from #3b82f6 - lighter blue */
+  --background-color: rgba(245, 230, 211, 0.15); /* Much lighter background */
+  --text-color: #1f2937;
   --navbar-height: 4rem;
-  --footer-bg: #1a1a1a;
-  --footer-text: #ffffff;
+  --footer-bg: #1f2937;
+  --footer-text: #f3f4f6;
   --footer-link-hover: var(--primary-color);
   --card-bg: #ffffff;
+  --hover-bg: #f3f4f6;
+  --header-bg: rgba(255, 255, 255, 0.95);
 }
 
 :root.dark {
   --background: #1a1a1a;
   --foreground: #ededed;
-  --primary-color: #64748b;
-  --secondary-color: #94a3b8;
-  --background-color: #242424;
+  --primary-color: #64748b;    /* Changed to a softer slate gray */
+  --secondary-color: #94a3b8;  /* Changed to a lighter slate gray */
+  --background-color: rgba(30, 41, 59, 0.7);  /* Changed to a more subtle navy-tinted dark background */
   --text-color: #e2e8f0;
-  --footer-bg: #0f0f0f;
-  --footer-text: #ffffff;
-  --card-bg: #2d3748;
+  --footer-bg: #0f172a;        /* Darker footer background */
+  --footer-text: #f1f5f9;      /* Brighter footer text for better contrast */
+  --card-bg: #1e293b;          /* Slightly lighter than footer for depth */
+  --hover-bg: #334155;         /* Lighter hover state */
+  --header-bg: rgba(15, 23, 42, 0.95); /* Darker header background */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,18 +51,56 @@
 body {
   color: var(--text-color);
   background-color: var(--background-color);
-  font-family: 'Inter', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   min-height: 100vh;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  line-height: 1.2;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus styles */
+:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Improved button styles */
+.button {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background: var(--secondary-color);
 }

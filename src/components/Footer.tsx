@@ -37,9 +37,9 @@ const Footer: React.FC = () => {
                 
                 <div className={styles.footerSection}>
                     <h3>Contact</h3>
-                    <p>Email: contact@example.com</p>
-                    <p>Phone: (555) 123-4567</p>
-                    <p>Address: 123 Web Dev Lane</p>
+                    <p>Email: hjoseph777@gmail.com</p><p>contact@example.com</p>
+                    <p>Phone: (647) 123-4567</p>
+                    <p>Address: 123 Courset Ont</p>
                 </div>
             </div>
             
