@@ -1,4 +1,4 @@
-# Next.js Portfolio Project
+# Next.js Portfolio Project Assignment I
 
 A modern, responsive portfolio website built with Next.js, featuring theme switching and dynamic routing.
 
