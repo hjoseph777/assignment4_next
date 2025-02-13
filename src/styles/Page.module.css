@@ -29,7 +29,9 @@
     gap: 2rem;
     padding: 2rem;
     margin-top: auto; /* Push cards to bottom */
-    margin-bottom: 100px; /* Space for footer */
+    margin-bottom: 80px; /* Reduced from 120px */
+    position: relative; /* Added to ensure cards stay above footer */
+    z-index: 2; /* Increased z-index to ensure cards stay above everything */
 }
 
 .card {
@@ -41,10 +43,13 @@
     text-align: center;
     transition: transform 0.3s ease;
     max-width: 300px;
+    transform-origin: center bottom; /* Makes card lift from bottom */
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-25px); /* Increased lift height from -15px */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Added shadow for hover effect */
+    z-index: 3; /* Ensures hovered card stays above others */
 }
 
 .cardIcon {
