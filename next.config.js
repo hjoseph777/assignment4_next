@@ -21,9 +21,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/assignment4_next' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/assignment4_next/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/assignment1' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/assignment1/' : '',
   trailingSlash: true
 }
 
 module.exports = nextConfig
+

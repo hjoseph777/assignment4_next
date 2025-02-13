@@ -3,13 +3,13 @@
 A modern, responsive portfolio website built with Next.js, featuring theme switching and dynamic routing.
 
 ## 🚀 Live Demo
-Visit the live site: [https://hjoseph777.github.io/assignment4_next/](https://hjoseph777.github.io/assignment4_next/)
+Visit the live site: [https://hjoseph777.github.io/assignment1/](https://hjoseph777.github.io/assignment1/)
 
 ## 📁 Project Structure
 
 ### Root Directory
 ```
-assignment4_next/
+assignment1/
 ├── pages/              # Main route pages
 ├── src/
 │   ├── components/     # Reusable UI components
@@ -27,7 +27,7 @@ Contains the main route pages of the application. Each file corresponds to a rou
 - `_app.tsx` - App wrapper with global providers
 - `_document.tsx` - Custom document component
 
-View code: [https://github.com/hjoseph777/assignment4_next/tree/main/pages](https://github.com/hjoseph777/assignment4_next/tree/main/pages)
+View code: [https://github.com/hjoseph777/assignment1/tree/main/pages](https://github.com/hjoseph777/assignment1/tree/main/pages)
 
 ### Components (`/src/components`)
 Reusable UI components used throughout the application.
@@ -37,7 +37,7 @@ Reusable UI components used throughout the application.
 - `Footer.tsx` - Footer component
 - `ThemeToggle.tsx` - Theme switching button
 
-View code: [https://github.com/hjoseph777/assignment4_next/tree/main/src/components](https://github.com/hjoseph777/assignment4_next/tree/main/src/components)
+View code: [https://github.com/hjoseph777/assignment1/tree/main/src/components](https://github.com/hjoseph777/assignment1/tree/main/src/components)
 
 ### Styles (`/src/styles`)
 Manages the application's styling and theming.
@@ -47,7 +47,7 @@ Manages the application's styling and theming.
 - `Page.module.css` - Page-specific styles
 - `theme.ts` - Theme configuration
 
-View code: [https://github.com/hjoseph777/assignment4_next/tree/main/src/styles](https://github.com/hjoseph777/assignment4_next/tree/main/src/styles)
+View code: [https://github.com/hjoseph777/assignment1/tree/main/src/styles](https://github.com/hjoseph777/assignment1/tree/main/src/styles)
 
 ## 🎨 Features
 
@@ -71,12 +71,12 @@ View code: [https://github.com/hjoseph777/assignment4_next/tree/main/src/styles]
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hjoseph777/assignment4_next.git
+git clone https://github.com/hjoseph777/assignment1.git
 ```
 
 2. Install dependencies:
 ```bash
-cd assignment4_next
+cd assignment1
 npm install
 ```
 
@@ -100,3 +100,4 @@ The project is automatically deployed to GitHub Pages using GitHub Actions when 
 ## 📝 License
 
 MIT License - feel free to use this project as a template for your own portfolio!
+
